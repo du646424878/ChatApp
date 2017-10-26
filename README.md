@@ -16,12 +16,16 @@
 使用截图如下：
 
 1. 登录界面
+
 ![LoginView](./screenshots/screenshot1.png)
 2. 注册界面
+
 ![LoginView](./screenshots/screenshot2.png)
 3. app主界面
+
 ![LoginView](./screenshots/screenshot3.png)
 4. 聊天界面
+
 ![LoginView](./screenshots/screenshot4.png)
 
 ## 任何问题
