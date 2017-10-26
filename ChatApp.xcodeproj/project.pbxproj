@@ -9,12 +9,27 @@
 /* Begin PBXBuildFile section */
 		729654661F9EFFE900BFF1E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 729654651F9EFFE900BFF1E7 /* main.m */; };
 		729654691F9EFFE900BFF1E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 729654681F9EFFE900BFF1E7 /* AppDelegate.m */; };
-		7296546C1F9EFFE900BFF1E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7296546B1F9EFFE900BFF1E7 /* ViewController.m */; };
 		7296546F1F9EFFE900BFF1E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7296546D1F9EFFE900BFF1E7 /* Main.storyboard */; };
 		729654711F9EFFE900BFF1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729654701F9EFFE900BFF1E7 /* Assets.xcassets */; };
 		729654741F9EFFE900BFF1E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729654721F9EFFE900BFF1E7 /* LaunchScreen.storyboard */; };
 		7296547F1F9EFFE900BFF1E7 /* ChatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7296547E1F9EFFE900BFF1E7 /* ChatAppTests.m */; };
 		7296548A1F9EFFE900BFF1E7 /* ChatAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 729654891F9EFFE900BFF1E7 /* ChatAppUITests.m */; };
+		7296549A1F9F017200BFF1E7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729654981F9F017200BFF1E7 /* LoginViewController.m */; };
+		7296549B1F9F017200BFF1E7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 729654991F9F017200BFF1E7 /* LoginViewController.xib */; };
+		729654A31F9F0BC200BFF1E7 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729654A11F9F0BC200BFF1E7 /* RegisterViewController.m */; };
+		729654A41F9F0BC200BFF1E7 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 729654A21F9F0BC200BFF1E7 /* RegisterViewController.xib */; };
+		729654A71F9F0FDA00BFF1E7 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729654A61F9F0FDA00BFF1E7 /* IndexViewController.m */; };
+		729654B01F9F10F900BFF1E7 /* TAB1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729654AF1F9F10F900BFF1E7 /* TAB1ViewController.m */; };
+		729654B31F9F110F00BFF1E7 /* TAB2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729654B21F9F110F00BFF1E7 /* TAB2ViewController.m */; };
+		729654B61F9F114A00BFF1E7 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729654B51F9F114A00BFF1E7 /* ContactViewController.m */; };
+		729654B91F9F131400BFF1E7 /* ChatBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729654B81F9F131400BFF1E7 /* ChatBoardViewController.m */; };
+		729654BC1F9F133B00BFF1E7 /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729654BB1F9F133B00BFF1E7 /* MyInfoViewController.m */; };
+		72E748FC1FA1C088002F520A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E748F21FA1C088002F520A /* FMDatabase.m */; };
+		72E748FD1FA1C088002F520A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E748F41FA1C088002F520A /* FMDatabaseAdditions.m */; };
+		72E748FE1FA1C088002F520A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E748F61FA1C088002F520A /* FMDatabasePool.m */; };
+		72E748FF1FA1C088002F520A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E748F81FA1C088002F520A /* FMDatabaseQueue.m */; };
+		72E749001FA1C088002F520A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E748FB1FA1C088002F520A /* FMResultSet.m */; };
+		72E749021FA1C0D1002F520A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E749011FA1C0D1002F520A /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +54,6 @@
 		729654651F9EFFE900BFF1E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		729654671F9EFFE900BFF1E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		729654681F9EFFE900BFF1E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7296546A1F9EFFE900BFF1E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7296546B1F9EFFE900BFF1E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7296546E1F9EFFE900BFF1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		729654701F9EFFE900BFF1E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		729654731F9EFFE900BFF1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +64,36 @@
 		729654851F9EFFE900BFF1E7 /* ChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		729654891F9EFFE900BFF1E7 /* ChatAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatAppUITests.m; sourceTree = "<group>"; };
 		7296548B1F9EFFE900BFF1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		729654971F9F017200BFF1E7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		729654981F9F017200BFF1E7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		729654991F9F017200BFF1E7 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		729654A01F9F0BC200BFF1E7 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		729654A11F9F0BC200BFF1E7 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		729654A21F9F0BC200BFF1E7 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		729654A51F9F0FDA00BFF1E7 /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		729654A61F9F0FDA00BFF1E7 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		729654AE1F9F10F900BFF1E7 /* TAB1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAB1ViewController.h; path = ../TAB1ViewController.h; sourceTree = "<group>"; };
+		729654AF1F9F10F900BFF1E7 /* TAB1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAB1ViewController.m; path = ../TAB1ViewController.m; sourceTree = "<group>"; };
+		729654B11F9F110F00BFF1E7 /* TAB2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAB2ViewController.h; path = ../TAB2ViewController.h; sourceTree = "<group>"; };
+		729654B21F9F110F00BFF1E7 /* TAB2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAB2ViewController.m; path = ../TAB2ViewController.m; sourceTree = "<group>"; };
+		729654B41F9F114A00BFF1E7 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactViewController.h; path = ../ContactViewController.h; sourceTree = "<group>"; };
+		729654B51F9F114A00BFF1E7 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactViewController.m; path = ../ContactViewController.m; sourceTree = "<group>"; };
+		729654B71F9F131400BFF1E7 /* ChatBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatBoardViewController.h; sourceTree = "<group>"; };
+		729654B81F9F131400BFF1E7 /* ChatBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatBoardViewController.m; sourceTree = "<group>"; };
+		729654BA1F9F133B00BFF1E7 /* MyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
+		729654BB1F9F133B00BFF1E7 /* MyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
+		72E748F11FA1C088002F520A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		72E748F21FA1C088002F520A /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		72E748F31FA1C088002F520A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		72E748F41FA1C088002F520A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		72E748F51FA1C088002F520A /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		72E748F61FA1C088002F520A /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		72E748F71FA1C088002F520A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		72E748F81FA1C088002F520A /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		72E748F91FA1C088002F520A /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		72E748FA1FA1C088002F520A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		72E748FB1FA1C088002F520A /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		72E749011FA1C0D1002F520A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72E749021FA1C0D1002F520A /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +129,7 @@
 				7296547D1F9EFFE900BFF1E7 /* ChatAppTests */,
 				729654881F9EFFE900BFF1E7 /* ChatAppUITests */,
 				729654621F9EFFE900BFF1E7 /* Products */,
+				72E748D31FA1B018002F520A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +146,37 @@
 		729654631F9EFFE900BFF1E7 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				72E748F11FA1C088002F520A /* FMDatabase.h */,
+				72E748F21FA1C088002F520A /* FMDatabase.m */,
+				72E748F31FA1C088002F520A /* FMDatabaseAdditions.h */,
+				72E748F41FA1C088002F520A /* FMDatabaseAdditions.m */,
+				72E748F51FA1C088002F520A /* FMDatabasePool.h */,
+				72E748F61FA1C088002F520A /* FMDatabasePool.m */,
+				72E748F71FA1C088002F520A /* FMDatabaseQueue.h */,
+				72E748F81FA1C088002F520A /* FMDatabaseQueue.m */,
+				72E748F91FA1C088002F520A /* FMDB.h */,
+				72E748FA1FA1C088002F520A /* FMResultSet.h */,
+				72E748FB1FA1C088002F520A /* FMResultSet.m */,
+				729654B71F9F131400BFF1E7 /* ChatBoardViewController.h */,
+				729654B81F9F131400BFF1E7 /* ChatBoardViewController.m */,
+				729654BA1F9F133B00BFF1E7 /* MyInfoViewController.h */,
+				729654BB1F9F133B00BFF1E7 /* MyInfoViewController.m */,
+				729654B41F9F114A00BFF1E7 /* ContactViewController.h */,
+				729654B51F9F114A00BFF1E7 /* ContactViewController.m */,
+				729654B11F9F110F00BFF1E7 /* TAB2ViewController.h */,
+				729654B21F9F110F00BFF1E7 /* TAB2ViewController.m */,
+				729654AE1F9F10F900BFF1E7 /* TAB1ViewController.h */,
+				729654AF1F9F10F900BFF1E7 /* TAB1ViewController.m */,
+				729654971F9F017200BFF1E7 /* LoginViewController.h */,
+				729654981F9F017200BFF1E7 /* LoginViewController.m */,
+				729654991F9F017200BFF1E7 /* LoginViewController.xib */,
+				729654A01F9F0BC200BFF1E7 /* RegisterViewController.h */,
+				729654A11F9F0BC200BFF1E7 /* RegisterViewController.m */,
+				729654A21F9F0BC200BFF1E7 /* RegisterViewController.xib */,
+				729654A51F9F0FDA00BFF1E7 /* IndexViewController.h */,
+				729654A61F9F0FDA00BFF1E7 /* IndexViewController.m */,
 				729654671F9EFFE900BFF1E7 /* AppDelegate.h */,
 				729654681F9EFFE900BFF1E7 /* AppDelegate.m */,
-				7296546A1F9EFFE900BFF1E7 /* ViewController.h */,
-				7296546B1F9EFFE900BFF1E7 /* ViewController.m */,
 				7296546D1F9EFFE900BFF1E7 /* Main.storyboard */,
 				729654701F9EFFE900BFF1E7 /* Assets.xcassets */,
 				729654721F9EFFE900BFF1E7 /* LaunchScreen.storyboard */,
@@ -138,6 +210,14 @@
 				7296548B1F9EFFE900BFF1E7 /* Info.plist */,
 			);
 			path = ChatAppUITests;
+			sourceTree = "<group>";
+		};
+		72E748D31FA1B018002F520A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72E749011FA1C0D1002F520A /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +326,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7296549B1F9F017200BFF1E7 /* LoginViewController.xib in Resources */,
 				729654741F9EFFE900BFF1E7 /* LaunchScreen.storyboard in Resources */,
 				729654711F9EFFE900BFF1E7 /* Assets.xcassets in Resources */,
 				7296546F1F9EFFE900BFF1E7 /* Main.storyboard in Resources */,
+				729654A41F9F0BC200BFF1E7 /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +355,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7296546C1F9EFFE900BFF1E7 /* ViewController.m in Sources */,
+				729654B31F9F110F00BFF1E7 /* TAB2ViewController.m in Sources */,
 				729654691F9EFFE900BFF1E7 /* AppDelegate.m in Sources */,
+				72E748FE1FA1C088002F520A /* FMDatabasePool.m in Sources */,
+				72E748FF1FA1C088002F520A /* FMDatabaseQueue.m in Sources */,
+				729654BC1F9F133B00BFF1E7 /* MyInfoViewController.m in Sources */,
+				729654B91F9F131400BFF1E7 /* ChatBoardViewController.m in Sources */,
 				729654661F9EFFE900BFF1E7 /* main.m in Sources */,
+				729654B01F9F10F900BFF1E7 /* TAB1ViewController.m in Sources */,
+				7296549A1F9F017200BFF1E7 /* LoginViewController.m in Sources */,
+				72E749001FA1C088002F520A /* FMResultSet.m in Sources */,
+				729654B61F9F114A00BFF1E7 /* ContactViewController.m in Sources */,
+				729654A31F9F0BC200BFF1E7 /* RegisterViewController.m in Sources */,
+				72E748FC1FA1C088002F520A /* FMDatabase.m in Sources */,
+				729654A71F9F0FDA00BFF1E7 /* IndexViewController.m in Sources */,
+				72E748FD1FA1C088002F520A /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,8 +520,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dzk.ChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -437,8 +536,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dzk.ChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -509,6 +613,7 @@
 				729654901F9EFFE900BFF1E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		729654911F9EFFE900BFF1E7 /* Build configuration list for PBXNativeTarget "ChatAppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +622,7 @@
 				729654931F9EFFE900BFF1E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		729654941F9EFFE900BFF1E7 /* Build configuration list for PBXNativeTarget "ChatAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +631,7 @@
 				729654961F9EFFE900BFF1E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

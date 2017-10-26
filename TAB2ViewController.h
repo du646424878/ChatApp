@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TAB2ViewController.h
 //  ChatApp
 //
 //  Created by 杜哲凯 on 2017/10/24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TAB2ViewController : UINavigationController
 
 @end
-

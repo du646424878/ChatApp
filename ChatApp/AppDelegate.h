@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol ContactViewDelegate <NSObject>
+-(void) startgetlist;
+-(void) transmitmessage:(NSString*) msg;
+@end
+@protocol IndexViewDelegate <NSObject>
 
+-(void) updateList:(NSString*) msg;
+-(void) updateList_msg:(NSString *)msg;
+@end
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
