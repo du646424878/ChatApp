@@ -1,6 +1,6 @@
 # ChatApp for IOS
 
-## 简介
+## 简介
 我的第一个IOS程序。实现了比较基本的文字聊天功能。
 
 项目是用Objective-C写的，这是一门非常神奇的语言，一天可以上手，个人非常喜欢它的语言设计。
@@ -18,15 +18,18 @@
 1. 登录界面
 
 ![LoginView](./screenshots/screenshot1.png)
+
 2. 注册界面
 
-![LoginView](./screenshots/screenshot2.png)
+![RegisterView](./screenshots/screenshot2.png)
+
 3. app主界面
 
-![LoginView](./screenshots/screenshot3.png)
+![MainView](./screenshots/screenshot3.png)
+
 4. 聊天界面
 
-![LoginView](./screenshots/screenshot4.png)
+![ChatView](./screenshots/screenshot4.png)
 
 ## 任何问题
 任何问题请联系646424878@qq.com 谢谢
